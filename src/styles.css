@@ -1,0 +1,149 @@
+/* CSS Grid layout */
+.notes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Custom element styling */
+.note {
+  border: 1px solid #ed0000;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+form input,
+form textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+/* Optional: Realtime validation */
+input:invalid {
+  border: 1px solid red;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px; /* Jarak antar tombol */
+}
+
+/* Gaya saat tombol dihover */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Optional: Attractive design */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.note {
+  background-color: #fff;
+}
+
+/* Optional: Custom attribute */
+.note[important="true"] {
+  border-color: red;
+}
+
+/* Custom element styling */
+.app-bar {
+  background-color: #333;
+  color: rgb(252, 252, 252);
+  padding: 10px;
+  text-align: center;
+}
+
+/* Custom element styling */
+.input-field {
+  margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: rgb(201, 0, 0);
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+}
+
+/* Keyframes untuk animasi spinner */
+@keyframes ldio-yzaezf3dcmj {
+  0% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+/* Gaya untuk setiap kubus pada spinner */
+#ldio-yzaezf3dcmj div {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: #f25022; /* Warna latar belakang kubus */
+  animation: ldio-yzaezf3dcmj 1s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+/* Penempatan masing-masing kubus */
+#ldio-yzaezf3dcmj div:nth-child(2) {
+  top: 0;
+  left: 106.66666666666666px;
+  background: #7fba00; /* Warna latar belakang kubus */
+  animation-delay: -0.2s;
+}
+#ldio-yzaezf3dcmj div:nth-child(3) {
+  top: 106.66666666666666px;
+  left: 0;
+  background: #ffb900; 
+  animation-delay: 0s;
+}
+#ldio-yzaezf3dcmj div:nth-child(4) {
+  top: 106.66666666666666px;
+  left: 106.66666666666666px;
+  background: #00a4ef; 
+  animation-delay: -0.1s;
+}
+
+
+#loadingio-spinner-cube-2by998twmg8 {
+  position: fixed; 
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 200px;
+  height: 200px;
+  display: none; 
+  z-index: 9999; 
+}
+
+
+#ldio-yzaezf3dcmj {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; 
+}
+
+
+#ldio-yzaezf3dcmj div { 
+  box-sizing: content-box; 
+}
